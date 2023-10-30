@@ -74,6 +74,7 @@ h6 {
 	font-family: 'Amiri', sans-serif;
 	font-weight: 500;
 	margin-top: 0;
+	margin-bottom: px;
 }
 
 
@@ -101,6 +102,8 @@ h5 {
 h6 {  
 	font-size: 18px;  
 }
+
+
 
 img {
 	border: none;
@@ -189,8 +192,8 @@ button:focus {
     height: 300рх;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotatey(-30deg);
-    transition: 3s ease;
+    transform: rotatey(-160deg);
+    transition: 8s ease;
 
 }
 
@@ -220,11 +223,11 @@ button:focus {
     width: 55px;
     height: 275px;
     transform: translateX(167px) rotatey(90deg);
-    background: linear-gradient(90deg,#fff 0%, #f9f9f9 5%,#fff 10%, #F9f9f9 15%,
-	#fff 20%, #f9f9f9 25%,#fff 30%, #F9f9f9 35%,
-	#fff 40%, #f9f9f9 45%,#fff 50%, #F9f9f9 55%,
-	#fff 60%, #f9f9f9 65%,#fff 70%, #F9f9f9 75%,
-	#fff 80%, #f9f9f9 85%,#fff 90%, #F9f9f9 95%, #fff 100%)
+    background: linear-gradient(90deg,#4e4d4d 0%, #2c2b2b 5%,#4e4d4d 10%, #2c2b2b 15%,
+	#4e4d4d 20%, #272626 25%,#4e4d4d 30%, #272626 35%,
+	#4e4d4d 40%, #272626 45%,#4e4d4d 50%, #272626 55%,
+	#4e4d4d 60%, #272626 65%,#4e4d4d 70%, #272626 75%,
+	#4e4d4d 80%, #272626 85%,#4e4d4d 90%, #272626 95%, #4e4d4d 100%)
 }
 
 .book3d::after{
@@ -502,6 +505,15 @@ box-shadow: 30px 30px 80px rgb(0, 0, 0);
 	font-size: 30px;
 	padding-top: 20px;
 	padding-bottom: -30px;
+}
+.text_test2 {
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-weight: -10PX;
+	font-size: 90px;
+	padding-top: 3px;
+	padding-bottom: -60px;
 }
 
 
